@@ -1,0 +1,168 @@
+<!doctype html5> 
+<html>
+    <head>
+	 <title>Memory Game</title>
+	 
+	 
+	 <script type = "text/javascript" src = "memory_game.js"></script>
+	
+	 <link rel = "stylesheet" href = "styles.css" />
+	
+	</head>
+	
+	<body  onload="new_game()">
+	
+	
+	<button id = "new_game_click">New Game</button>
+	 <div class = "game_info" >
+	Moves:
+	<div id="moves_counter"> 0</div>
+	&nbsp;
+	Matches:
+	 <div id="matches_counter" >0 </div>
+	 </div>
+	 <section class ="memory-game">
+
+	 
+	 <!-- 1 -->
+	   <div class="memory-card" data-framework="aladin">
+	   <img class="back-face" src= "Disney.png" alt="Aladin" />
+	   <img class="front-face" src="aladdin.jpg" alt="JS Badge"/>
+	  </div>
+	   <div class="memory-card" data-framework="aladin">
+	   <img class="back-face" src= "Disney.png" alt="Aladin" />
+	   <img class="front-face" src="aladdin.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 2 -->
+	  <div class="memory-card" data-framework="belle">
+	   <img class="back-face" src= "Disney.png" alt="Belle" />
+	   <img class="front-face" src="belle.jpg" alt="JS Badge"/>
+	  </div>
+	    <div class="memory-card" data-framework="belle">
+	   <img class="back-face" src= "Disney.png" alt="Belle" />
+	   <img class="front-face" src="belle.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 3 -->
+	   <div class="memory-card" data-framework="cinderella">
+	   <img class="back-face" src= "Disney.png" alt="Cinderella" />
+	   <img class="front-face" src="cinderella.jpg" alt="JS Badge"/>
+	  </div>
+	  <div class="memory-card" data-framework="cinderella">
+	   <img class="back-face" src= "Disney.png" alt="Cinderella" />
+	   <img class="front-face" src="cinderella.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 4 -->
+	  <div class="memory-card" data-framework="cinderella2">
+	   <img class="back-face" src= "Disney.png" alt="Cinderella2" />
+	   <img class="front-face" src="cinderella2.jpg" alt="JS Badge"/>
+	  </div>
+	    <div class="memory-card" data-framework="cinderella2">
+	   <img class="back-face" src= "Disney.png" alt="Cinderella2" />
+	   <img class="front-face" src="cinderella2.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 5 -->
+	   <div class="memory-card" data-framework="evil">
+	   <img class="back-face" src= "Disney.png" alt="Evil" />
+	   <img class="front-face" src="evil.jpg" alt="JS Badge"/>
+	  </div>
+	  <div class="memory-card" data-framework="evil">
+	   <img class="back-face" src= "Disney.png" alt="Evil" />
+	   <img class="front-face" src="evil.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 6 -->
+	 <div class="memory-card" data-framework="mermaid">
+	   <img class="back-face" src= "Disney.png" alt="Mermaid" />
+	   <img class="front-face" src="mermaid.jpg" alt="JS Badge"/>
+	  </div>
+	  <div class="memory-card" data-framework="mermaid">
+	   <img class="back-face" src= "Disney.png" alt="Mermaid" />
+	   <img class="front-face" src="mermaid.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 7 -->
+	  <div class="memory-card" data-framework="mulan">
+	   <img class="back-face" src= "Disney.png" alt="Mulan" />
+	   <img class="front-face" src="mulan.jpg" alt="JS Badge"/>
+	  </div>
+	  <div class="memory-card" data-framework="mulan">
+	   <img class="back-face" src= "Disney.png" alt="Mulan" />
+	   <img class="front-face" src="mulan.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 8 -->
+	   <div class="memory-card" data-framework="mulan2">
+	   <img class="back-face" src= "Disney.png" alt="Mulan2" />
+	   <img class="front-face" src="mulan2.jpg" alt="JS Badge"/>
+	  </div>
+	   <div class="memory-card" data-framework="mulan2">
+	   <img class="back-face" src= "Disney.png" alt="Mulan2" />
+	   <img class="front-face" src="mulan2.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 9 -->
+	  <div class="memory-card" data-framework="pocahontas">
+	   <img class="back-face" src= "Disney.png" alt="Pocahontas" />
+	   <img class="front-face" src="pocahontas.jpg" alt="JS Badge"/>
+	  </div>
+	    <div class="memory-card" data-framework="pocahontas">
+	   <img class="back-face" src= "Disney.png" alt="Pocahontas" />
+	   <img class="front-face" src="pocahontas.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 10 -->
+	 <div class="memory-card" data-framework="rapunzell">
+	   <img class="back-face" src= "Disney.png" alt="Rapunzell" />
+	   <img class="front-face" src="rapunzell.jpg" alt="JS Badge"/>
+	  </div>
+	  <div class="memory-card" data-framework="rapunzell">
+	   <img class="back-face" src= "Disney.png" alt="Rapunzell" />
+	   <img class="front-face" src="rapunzell.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 11 -->
+	  <div class="memory-card" data-framework="scar">
+	   <img class="back-face" src= "Disney.png" alt="Scar" />
+	   <img class="front-face" src="scar.png" alt="JS Badge"/>
+	  </div>
+	 <div class="memory-card" data-framework="scar">
+	   <img class="back-face" src= "Disney.png" alt="Scar" />
+	   <img class="front-face" src="scar.png" alt="JS Badge"/>
+	  </div>
+	   <!-- 12 -->
+	  <div class="memory-card" data-framework="simba">
+	   <img class="back-face" src= "Disney.png" alt="Simba" />
+	   <img class="front-face" src="simba.jpg" alt="JS Badge"/>
+	  </div>
+	    <div class="memory-card" data-framework="simba">
+	   <img class="back-face" src= "Disney.png" alt="Simba" />
+	   <img class="front-face" src="simba.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 13 -->
+	   <div class="memory-card" data-framework="snowwhite">
+	   <img class="back-face" src= "Disney.png" alt="Snowwhite" />
+	   <img class="front-face" src="snowwhite.jpg" alt="JS Badge"/>
+	  </div>
+	  <div class="memory-card" data-framework="snowwhite">
+	   <img class="back-face" src= "Disney.png" alt="Snowwhite" />
+	   <img class="front-face" src="snowwhite.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 14 -->
+	   <div class="memory-card" data-framework="stitch">
+	   <img class="back-face" src= "Disney.png" alt="Stitch" />
+	   <img class="front-face" src="stitch.jpg" alt="JS Badge"/>
+	  </div>
+	   <div class="memory-card" data-framework="stitch">
+	   <img class="back-face" src= "Disney.png" alt="Stitch" />
+	   <img class="front-face" src="stitch.jpg" alt="JS Badge"/>
+	  </div>
+	   <!-- 15 -->
+	   <div class="memory-card" data-framework="tarzan">
+	   <img class="back-face" src= "Disney.png" alt="Tarzan" />
+	   <img class="front-face" src="tarzan.jpg" alt="JS Badge"/>
+	  </div>
+	   <div class="memory-card" data-framework="tarzan">
+	   <img class="back-face" src= "Disney.png" alt="Aurelia" />
+	   <img class="front-face" src="tarzan.jpg" alt="JS Badge"/>
+	  </div>
+	  
+	  
+	 </section>
+	 
+	</body>
+	
+</html>
